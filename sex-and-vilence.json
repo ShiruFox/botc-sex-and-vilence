@@ -99,7 +99,7 @@
   {
     "id": "fortuneteller",
     "name": "Fortune Teller",
-    "image": "https://raw.githubusercontent.com/ShiruFox/botc-sex-and-vilence/refs/heads/main/icons/fortune%20teller.webp",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/fortune%20teller.png?raw=true",
     "ability": "On the first day, publicly predict the game: if you get it all right you win.",
     "team": "townsfolk"
   },
