@@ -11,10 +11,10 @@
     "firstNightReminder": "The Clockwatcher must be told the time",
     "reminders": ["reminder test"],
     "remindersGlobal": ["reminders global test"],
-    "setup": false
+    "setup": false,
     "name": "Clockwatcher",
     "team": "townsfolk",
-    "ability": "You start knowing the time.",
+    "ability": "You start knowing the time."
   },
   "dreamer",
   "artist",
