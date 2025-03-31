@@ -84,9 +84,9 @@
     "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/intellectual.jpg?raw=true",
     "ability": "once per game, at night, choose any character. You become that character.",
     "firstNight": 1,
-    "firstNightReminder": "If the Intellectual has not used their ability: the Intellectual either shows a 'no' head signal, or points to a character on their sheet. If they chose a character: Swap the out-of-play character token with the Intellectual token and add the 'Is the Intellectual' reminder.",
+    "firstNightReminder": "If the Intellectual has not used their ability: the Intellectual either shows a 'no' head signal, or points to a character on their sheet. If they chose a character: Swap the character token with the Intellectual token and add the 'Is the Intellectual' reminder.",
     "otherNight": 1,
-    "otherNightReminder": "If the Intellectual has not used their ability: the Intellectual either shows a 'no' head signal, or points to a character on their sheet. If they chose a character: Swap the out-of-play character token with the Intellectual token and add the 'Is the Intellectual' reminder.",
+    "otherNightReminder": "If the Intellectual has not used their ability: the Intellectual either shows a 'no' head signal, or points to a character on their sheet. If they chose a character: Swap the character token with the Intellectual token and add the 'Is the Intellectual' reminder.",
     "team": "townsfolk"
   },
   {
