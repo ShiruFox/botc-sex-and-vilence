@@ -92,7 +92,7 @@
   {
     "id": "artist",
     "name": "Artist",
-    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/edward%20scissorhands.png?raw=true",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/artist.png?raw=true",
     "ability": "Once per game, privately ask the storyteller to give you a drawing.",
     "team": "townsfolk"
   },
