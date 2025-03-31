@@ -4,7 +4,18 @@
     "author":"AnimatingDragon",
     "name":"Sex & Vilence"
   },
-  "clockmaker",
+  {
+    "id": "clockwatcher",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/clockwatcher.png?raw=true",
+    "firstNight": 1,
+    "firstNightReminder": "The Clockwatcher must be told the time",
+    "reminders": ["reminder test"],
+    "remindersGlobal": ["reminders global test"],
+    "setup": false
+    "name": "Clockwatcher",
+    "team": "townsfolk",
+    "ability": "You start knowing the time.",
+  },
   "dreamer",
   "artist",
   "flowergirl",
