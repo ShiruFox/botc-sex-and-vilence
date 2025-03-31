@@ -90,14 +90,14 @@
     "team": "townsfolk"
   },
   {
-    "id": "artist",
+    "id": "sexartist",
     "name": "Artist",
     "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/artist.png?raw=true",
     "ability": "Once per game, privately ask the storyteller to give you a drawing.",
     "team": "townsfolk"
   },
   {
-    "id": "fortuneteller",
+    "id": "sexfortuneteller",
     "name": "Fortune Teller",
     "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/fortune%20teller.png?raw=true",
     "ability": "On the first day, publicly predict the game: if you get it all right you win.",
