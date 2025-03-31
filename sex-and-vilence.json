@@ -1,43 +1,226 @@
 [
   {
     "id":"_meta",
-    "author":"AnimatingDragon",
+    "author":"AnimatingDragon, dragon512, brambom, Shiru",
     "name":"Sex & Vilence"
   },
   {
     "id": "clockwatcher",
-    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/clockwatcher.png?raw=true",
-    "firstNight": 1,
-    "firstNightReminder": "The Clockwatcher must be told the time",
-    "reminders": ["reminder test"],
-    "remindersGlobal": ["reminders global test"],
-    "setup": false,
     "name": "Clockwatcher",
-    "team": "townsfolk",
-    "ability": "You start knowing the time."
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/clockwatcher.png?raw=true",
+    "ability": "You start knowing the time.",
+    "firstNight": 6,
+    "firstNightReminder": "Show a watch with the current time to the Clockwatcher.",
+    "team": "townsfolk"
   },
-  "dreamer",
-  "artist",
-  "flowergirl",
-  "juggler",
-  "mathematician",
-  "oracle",
-  "philosopher",
-  "savant",
-  "seamstress",
-  "sage",
-  "snakecharmer",
-  "towncrier",
-  "barber",
-  "klutz",
-  "mutant",
-  "sweetheart",
-  "cerenovus",
-  "eviltwin",
-  "pithag",
-  "witch",
-  "fanggu",
-  "nodashii",
-  "vigormortis",
-  "vortox"
+  {
+    "id": "insomniac",
+    "name": "Insomniac",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/insomniac.png?raw=true",
+    "ability": "Each night, choose a player (not yourself or travellers): you learn that they are one of 2 players.",
+    "firstNight": 7,
+    "firstNightReminder": "The Insomniac points to a player. Point to another player; the player is one of these players.",
+    "otherNight": 13,
+    "otherNightReminder": "The Insomniac points to a player. Point to another player; the player is one of these players.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "australian",
+    "name": "Australian",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/australian.png?raw=true",
+    "ability": "Each night, choose an alive player: a chosen Minion swaps characters & alignments with you & is then poisoned.",
+    "firstNight": 2,
+    "firstNightReminder": "The Australian points to a player. If that player is a Minion: swap the Minion and Australian character and aligmnents. Wake each player to inform them of their new role and alignment. The new Australian is poisoned.",
+    "otherNight": 2,
+    "otherNightReminder": "The Australian points to a player. If that player is a Minion: swap the Minion and Australian character and aligmnents. Wake each player to inform them of their new role and alignment. The new Australian is poisoned.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "calculator",
+    "name": "Calculator",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/calculator.png?raw=true",
+    "ability": "Each night, you learn the answer of a basic math problem.",
+    "firstNight": 9,
+    "firstNightReminder": "The Calculator shows you the hand signal (+, -, x, 0, 1, 2, etc.) for the basic math problem they would like the solution to. Show the hand signal for the solution.",
+    "otherNight": 19,
+    "otherNightReminder": "The Calculator shows you the hand signal (+, -, x, 0, 1, 2, etc.) for the basic math problem they would like the solution to. Show the hand signal for the solution.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "dregguy",
+    "name": "Dreg-Guy",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/dreg-guy.png?raw=true",
+    "ability": "Each night*, you learn if a demon is in play.",
+    "otherNight": 14,
+    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a demon is in play.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "townweher",
+    "name": "Town Weher",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/town%20weher.png?raw=true",
+    "ability": "Each night*, you learn who nominated today.",
+    "otherNight": 15,
+    "otherNightReminder": "Point at the players who nominated during the day.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "guru",
+    "name": "Guru",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/guru.png?raw=true",
+    "ability": "Each day, you may visit the storyteller to learn two arbitrary things in private.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "edward",
+    "name": "Edward Scissorhands",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/edward%20scissorhands.png?raw=true",
+    "ability": "Once per game, pick 2 players (not yourself).",
+    "team": "townsfolk"
+  },
+  {
+    "id": "intellectual",
+    "name": "Intellectual",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/intellectual.jpg?raw=true",
+    "ability": "once per game, at night, choose any character. You become that character.",
+    "firstNight": 1,
+    "firstNightReminder": "If the Intellectual has not used their ability: the Intellectual either shows a 'no' head signal, or points to a character on their sheet. If they chose a character: Swap the out-of-play character token with the Intellectual token and add the 'Is the Intellectual' reminder.",
+    "otherNight": 1,
+    "otherNightReminder": "If the Intellectual has not used their ability: the Intellectual either shows a 'no' head signal, or points to a character on their sheet. If they chose a character: Swap the out-of-play character token with the Intellectual token and add the 'Is the Intellectual' reminder.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "artist",
+    "name": "Artist",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/edward%20scissorhands.png?raw=true",
+    "ability": "Once per game, privately ask the storyteller to give you a drawing.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "fortuneteller",
+    "name": "Fortune Teller",
+    "image": "https://raw.githubusercontent.com/ShiruFox/botc-sex-and-vilence/refs/heads/main/icons/fortune%20teller.webp",
+    "ability": "On the first day, publicly predict the game: if you get it all right you win.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "candle",
+    "name": "Candle",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/candle.png?raw=true",
+    "ability": "If the demon kills you, you learn that you are the Candle.",
+    "otherNight": 12,
+    "otherNightReminder": "If the Candle was killed by a demon: Show them their chracter token.",
+    "team": "townsfolk"
+  },
+  {
+    "id": "turtle",
+    "name": "Teenage Mutant Ninja Turtle",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/teenage%20mutant%20ninja%20turtles.png?raw=true",
+    "ability": "If you are an outsider, you are executed.",
+    "team": "outsider"
+  },
+  {
+    "id": "lover",
+    "name": "Lover",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/lover.png?raw=true",
+    "ability": "When you die, a player learns that you died.",
+    "otherNight": 11,
+    "otherNightReminder": "Wake a player. Point at the Lover to signal that they died.",
+    "team": "outsider"
+  },
+  {
+    "id": "clippers",
+    "name": "LA Clippers",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/la%20clippers.png?raw=true",
+    "ability": "Each night*, choose a player: they lose part of their name.",
+    "firstNight": 10,
+    "firstNightReminder": "The LA Clippers points at a player; remove part of that players name.",
+    "otherNight": 20,
+    "otherNightReminder": "Wake a player. Point at the Lover to signal that they died.",
+    "team": "outsider"
+  },
+  {
+    "id": "clumsy",
+    "name": "Clumsy",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/clumsy.png?raw=true",
+    "ability": "When you learn that you died, publicly claim Clumsy or everyone loses.",
+    "team": "outsider"
+  },
+  {
+    "id": "bff",
+    "name": "BFF",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/bff.png?raw=true",
+    "ability": "You & an opposing player know each other. If you are the final 2 alive player, everyone else loses.",
+    "firstNight": 3,
+    "firstNightReminder": "Wake the BFF and their bff. Confirm that they have acknowledged each other. Point to the BFF. Show their BFF token to the bff. Point to the bff. Show their character token to the BFF player.",
+    "team": "minion"
+  },
+  {
+    "id": "nicehat",
+    "name": "Nice Hat",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/nice%20hat.png?raw=true",
+    "ability": "Each night, choose a player: if they nominate tomorrow, a player dies.",
+    "firstNight": 4,
+    "firstNightReminder": "The Nice Hat points to a player. If that player nominates tomorrow a player dies.",
+    "otherNight": 3,
+    "otherNightReminder": "The Nice Hat points to a player. If that player nominates tomorrow a player dies.",
+    "team": "minion"
+  },
+  {
+    "id": "psychward",
+    "name": "Psych Ward",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/psych%20ward.png?raw=true",
+    "ability": "Each night, choose a player and then another player. They are \"mad\" they are that player tomorrow or might be executed.",
+    "firstNight": 5,
+    "firstNightReminder": "The Psych Ward points to a player, then to another player. Wake the first player. Show the 'This character selected you' card, then the Psych Ward token. Show the selected player. If the player is not mad about being that player tomorrow, they can be executed.",
+    "otherNight": 4,
+    "otherNightReminder": "The Psych Ward points to a player, then to another player. Wake the first player. Show the 'This character selected you' card, then the Psych Ward token. Show the selected player. If the player is not mad about being that player tomorrow, they can be executed.",
+    "team": "minion"
+  },
+  {
+    "id": "pitfall",
+    "name": "Pitfall",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/pitfall.png?raw=true",
+    "ability": "Each night*, choose a player: they come to your cabin and get to choose what character they become. If a new demon was made, deaths are arbitrary.",
+    "otherNight": 5,
+    "otherNightReminder": "The Pitfall points to a player. Wake that player & show the 'This character selected you' card, then the Pitfall token. The player points at a character on their sheet and becomes that character.",
+    "team": "minion"
+  },
+  {
+    "id": "thankyou",
+    "name": "Thank You",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/thank%20you.png?raw=true",
+    "ability": "Each night*, choose a player: you die and they become the evil Thank You. [+1 Outsider]",
+    "otherNight": 6,
+    "otherNightReminder": "The Pitfall points to a player. Wake that player & show the 'This character selected you' card, then the Pitfall token. The player points at a character on their sheet and becomes that character.",
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "id": "vigoro",
+    "name": "Vigoro",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/vigoro.png?raw=true",
+    "ability": "Each night*, choose a player: they die. If a Minion is alive they are now dead, can still use their ability & their neighbours are poisoned.",
+    "otherNight": 9,
+    "otherNightReminder": "The Vigoro points to a player. That player dies. If a Minion is alive, they are now dead, keep their ability and both of their Townsfolk neighbours are poisoned.",
+    "team": "demon"
+  },
+  {
+    "id": "no",
+    "name": "No",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/no.png?raw=true",
+    "ability": "Each night*, choose a player: they are poisoned and one of your living Townsfolk neighbours die.",
+    "otherNight": 7,
+    "otherNightReminder": "The No points to a player. That player is poisoned. One of their living Townsfolk neighbours die.",
+    "team": "demon"
+  },
+  {
+    "id": "vertex",
+    "name": "Vertex",
+    "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/vertex.png?raw=true",
+    "ability": "Each night*, choose a player: they die & everyone yields false info.",
+    "otherNight": 8,
+    "otherNightReminder": "The Vertex points to a player. That player dies. Every player yields false info.",
+    "team": "demon"
+  }
 ]
