@@ -33,7 +33,10 @@
     "firstNightReminder": "The Australian points to a player. If that player is a Minion: swap the Minion and Australian character and aligmnents. Wake each player to inform them of their new role and alignment. The new Australian is poisoned.",
     "otherNight": 2,
     "otherNightReminder": "The Australian points to a player. If that player is a Minion: swap the Minion and Australian character and aligmnents. Wake each player to inform them of their new role and alignment. The new Australian is poisoned.",
-    "team": "townsfolk"
+    "team": "townsfolk",
+    "reminders": [
+      "Poisoned"
+    ]
   },
   {
     "id": "calculator",
@@ -133,10 +136,8 @@
     "name": "LA Clippers",
     "image": "https://github.com/ShiruFox/botc-sex-and-vilence/blob/main/icons/la%20clippers.png?raw=true",
     "ability": "Each night*, choose a player: they lose part of their name.",
-    "firstNight": 10,
-    "firstNightReminder": "The LA Clippers points at a player; remove part of that players name.",
     "otherNight": 20,
-    "otherNightReminder": "Wake a player. Point at the Lover to signal that they died.",
+    "otherNightReminder": "The LA Clippers points at a player; remove part of that players name.",
     "team": "outsider"
   },
   {
@@ -153,7 +154,10 @@
     "ability": "You & an opposing player know each other. If you are the final 2 alive player, everyone else loses.",
     "firstNight": 3,
     "firstNightReminder": "Wake the BFF and their bff. Confirm that they have acknowledged each other. Point to the BFF. Show their BFF token to the bff. Point to the bff. Show their character token to the BFF player.",
-    "team": "minion"
+    "team": "minion",
+    "reminders": [
+      "Good Bff"
+    ]
   },
   {
     "id": "nicehat",
@@ -164,7 +168,10 @@
     "firstNightReminder": "The Nice Hat points to a player. If that player nominates tomorrow a player dies.",
     "otherNight": 3,
     "otherNightReminder": "The Nice Hat points to a player. If that player nominates tomorrow a player dies.",
-    "team": "minion"
+    "team": "minion",
+    "reminders": [
+      "Chosen"
+    ]
   },
   {
     "id": "psychward",
@@ -175,7 +182,10 @@
     "firstNightReminder": "The Psych Ward points to a player, then to another player. Wake the first player. Show the 'This character selected you' card, then the Psych Ward token. Show the selected player. If the player is not mad about being that player tomorrow, they can be executed.",
     "otherNight": 4,
     "otherNightReminder": "The Psych Ward points to a player, then to another player. Wake the first player. Show the 'This character selected you' card, then the Psych Ward token. Show the selected player. If the player is not mad about being that player tomorrow, they can be executed.",
-    "team": "minion"
+    "team": "minion",
+    "reminders": [
+      "Mad"
+    ]
   },
   {
     "id": "pitfall",
@@ -194,7 +204,10 @@
     "otherNight": 6,
     "otherNightReminder": "The Pitfall points to a player. Wake that player & show the 'This character selected you' card, then the Pitfall token. The player points at a character on their sheet and becomes that character.",
     "setup": true,
-    "team": "demon"
+    "team": "demon",
+    "reminders": [
+      "Dead"
+    ]
   },
   {
     "id": "vigoro",
@@ -203,7 +216,11 @@
     "ability": "Each night*, choose a player: they die. If a Minion is alive they are now dead, can still use their ability & their neighbours are poisoned.",
     "otherNight": 9,
     "otherNightReminder": "The Vigoro points to a player. That player dies. If a Minion is alive, they are now dead, keep their ability and both of their Townsfolk neighbours are poisoned.",
-    "team": "demon"
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ]
   },
   {
     "id": "no",
@@ -212,7 +229,11 @@
     "ability": "Each night*, choose a player: they are poisoned and one of your living Townsfolk neighbours die.",
     "otherNight": 7,
     "otherNightReminder": "The No points to a player. That player is poisoned. One of their living Townsfolk neighbours die.",
-    "team": "demon"
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ]
   },
   {
     "id": "vertex",
@@ -221,6 +242,9 @@
     "ability": "Each night*, choose a player: they die & everyone yields false info.",
     "otherNight": 8,
     "otherNightReminder": "The Vertex points to a player. That player dies. Every player yields false info.",
-    "team": "demon"
+    "team": "demon",
+    "reminders": [
+      "Dead"
+    ]
   }
 ]
